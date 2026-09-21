@@ -199,13 +199,13 @@ Web Automation Team
 """,
                 attachmentsPattern: "${PDF_NAME},${CUCUMBER_REPORT}",
                 attachLog: true,
-                presendScript: '''
-                msg.addRecipients(
-					jakarta.mail.Message.RecipientType.CC,
-					"bharathkumar.kiaq@gmail.com"
-				)
+//                presendScript: '''
+//                msg.addRecipients(
+//					jakarta.mail.Message.RecipientType.CC,
+//					"bharathkumar.kiaq@gmail.com"
+//				)
 				
-			'''	
+//			'''	
             )
         }
 
